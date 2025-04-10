@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
   const backgroundImage = 'https://images.unsplash.com/photo-1686664219282-a1787f057706?q=80&w=2535&auto=format';
 
   return (
-    <section className="relative pt-24 pb-32 overflow-hidden">
+    <section className="relative pt-24 pb-32">
       <div className="container mx-auto px-4 relative z-10">
         <div className="md:border md:border-white/20 md:bg-white/5 md:backdrop-blur-sm md:rounded-3xl md:shadow-custom md:px-8 py-12 md:mt-8 md:overflow-hidden md:clip-border">
                 {/* Background with aerial grass photo */}

@@ -10,11 +10,11 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="fixed w-full z-50 py-4 backdrop-blur-lg bg-white/70 shadow-custom-md">
+    <header className="fixed w-full z-50 py-4 backdrop-blur-md bg-white/70">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <GrassIcon width={40} height={40} />
-          <span className="text-2xl font-bold text-grass-600">Grass</span>
+          <span className="text-2xl font-bold text-grass-600">Grass.</span>
         </div>
         
         <nav className="hidden md:flex space-x-8">

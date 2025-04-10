@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="flex items-center gap-2 mb-6 md:mb-0">
             <GrassIcon width={32} height={32} />
-            <span className="text-xl font-bold text-grass-600">Grass</span>
+            <span className="text-xl font-bold text-grass-600">Grass.</span>
           </div>
           
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
